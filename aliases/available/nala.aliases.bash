@@ -10,9 +10,9 @@ function _set_pkg_aliases() {
 	if _command_exists apt; then
 		alias nas='nala search'
 		alias nashow='nala show'
-		alias nainst='sudo nala install -V'
+		alias nainst='sudo nala install'
 		alias naupd='sudo nala update'
-		alias naupg='sudo nala upgrade -V'
+		alias naupg='sudo nala upgrade'
 		alias narm='sudo nala remove'
 		alias napurge='sudo nala purge'
 	fi
